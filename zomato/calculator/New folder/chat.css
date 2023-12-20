@@ -1,0 +1,116 @@
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('im1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+   background-color: grey;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-position: center;
+    background-size: 1000px;
+    align-items: center;
+   padding: 100px;
+    gap: 80;
+    
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add more CSS styles as needed to customize your page */
+#photo {
+    height: 400px;
+    width: 300pxx;
+    gap: 100px;
+    border: 5px solid white;
+}
+
+#photo1 {
+    display: flex;
+    flex-direction: row;
+    height: 170px;
+    gap: 100px;
+    border: 5px solid white;
+}
+
+#portfolio {
+  
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: auto;
+   padding: 2px;
+   margin: 20px;
+   background-color:#333;
+   color: white;
+
+}
+
+#photo2 {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 100px;
+    border: 5px solid white;
+}
+#id{
+    border-color: gray;
+}
+
+   

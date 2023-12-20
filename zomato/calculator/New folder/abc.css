@@ -1,0 +1,36 @@
+.pic{
+    font-size: 20px;
+    color: black;
+display:flex ;
+flex-direction: row;
+background-color: bisque;
+justify-content: center;
+gap: 50px;
+
+}
+.head{
+    font-size: 30px;
+    background-color: bisque;
+}
+#PC{
+    width: 400PX;
+    height: 300PX;
+    background-color: bisque;
+    display: flex;
+}
+.list{
+    display: flex;
+    flex-direction:row;
+    gap: 40px;
+    background-color: white;
+    margin-bottom: auto;    
+}
+h1{
+    background-color: bisque;
+}
+/* html{
+    background-color: bisque;
+} */
+.main{
+    background-color: bisque;
+}
